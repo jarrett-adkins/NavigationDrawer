@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/backArrow"
+        android:icon="@drawable/ic_arrow_back_white_24dp"
+        android:title="Return"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/green"
+        android:icon="@drawable/icon1"
+        android:title="New Game"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/red"
+        android:icon="@drawable/icon2"
+        android:title="Help"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/blue"
+        android:icon="@drawable/icon3"
+        android:title="Options"
+        app:showAsAction="ifRoom"/>
+</menu>
